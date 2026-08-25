@@ -5,7 +5,7 @@
 ### Generating Extensible Underwater Environments via Flow Matching — *ECCV 2026, Marine Vision Workshop*
 
 [![ECCV 2026](https://img.shields.io/badge/ECCV-2026-6A5ACD.svg)](#citation)
-[![arXiv](https://img.shields.io/badge/arXiv-%20-B31B1B.svg)](#citation)
+[![arXiv](https://img.shields.io/badge/arXiv-%20-B31B1B.svg)](https://arxiv.org/abs/2608.23173)
 ![Python 3.12](https://img.shields.io/badge/python-3.12-3776AB?style=flat&logo=python&logoColor=white)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.11-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](#license)
@@ -13,7 +13,7 @@
 BenthicFlow is a unified generative pipeline for benthic (seafloor) environments. A **single conditional flow matching model** jointly synthesizes aligned RGB and depth, and a MultiDiffusion-inspired windowed sampler extends generation to scenes of unbounded spatial extent — no separate inpainting or stitching network. Generated RGB-D mosaics are lifted into continuous 3D scenes with
 **surface-aligned Gaussian surfels**.
 
-[Paper](#citation) · [Hugging Face](https://huggingface.co/jacomof/Benthic-Flow) · [Code](https://github.com/jacomof/BenthicFlow/edit/main/README.md) · [Citation](#citation)
+[Paper](https://arxiv.org/abs/2608.23173) · [Hugging Face](https://huggingface.co/jacomof/Benthic-Flow) · [Code](https://github.com/jacomof/BenthicFlow/edit/main/README.md) · [Citation](#citation)
 
 </div>
 <!-- Fig. 1: export paper/figures/multidiffusion.pdf -> assets/multidiffusion-1.png -->
@@ -336,7 +336,17 @@ the paper were generated using [SuperSplat](https://superspl.at/editor).
 
 ## Citation
 
-*Paper coming soon on arxiv and ECCV 2026 proceedings.*
+If you use this work or codebase, please cite:
+
+```bibtex
+@article{figueira2026benthicflow,
+  title   = {BenthicFlow: Generating Extensible Underwater Environments via Flow Matching},
+  author  = {Figueira, Joaqu{\'i}n and Lendering, Camile and Gonzalez-Hernandez, Manfred and D'Amicantonio, Giacomo and Akdag, Erkut and Bondarev, Egor},
+  journal = {arXiv preprint arXiv:2608.23173},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2608.23173}
+}
+```
 
 ## Acknowledgements
 
